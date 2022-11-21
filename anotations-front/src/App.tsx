@@ -1,4 +1,5 @@
 import { Box, Grid, GridItem } from "@chakra-ui/react"
+import MainContent from "./components/MainContent"
 import SideBar from "./components/SideBar"
 
 function App() {
@@ -19,9 +20,7 @@ function App() {
           fontWeight='bold'
         >
           <SideBar/>
-          <GridItem pl='2' area={'main'} color={'#fff'}>
-            <h1>main</h1>
-          </GridItem>
+          <MainContent/>
         </Grid>
     </Box>
   )
